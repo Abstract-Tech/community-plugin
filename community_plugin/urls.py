@@ -1,5 +1,5 @@
 from .views import send_contact_form_email
-from django.conf.urls import url
+from django.urls import re_path as url
 
 
 urlpatterns = [
